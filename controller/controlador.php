@@ -37,9 +37,9 @@
 		$datos = $obj->Tabla_gen($result);
 	}
 
-	$datos_proveedores = $obj->listados("Select id_proveedor,concat(Nombres,' ',Apellido_p,' ',Apellido_m) as Nombre_comp from proveedores", "Select id_proveedor from productos where id_producto='" . @$_GET['idmodificar'] . "'");
+	$datos_proveedores = $obj->proveedores();
 
-	$datos_categorias = $obj->listados("Select id_categoria,Nombre from categorias", "Select id_categoria from productos where id_producto='" . @$_GET['idmodificar'] . "'");
+	$datos_categorias = $obj->categorias();
 
 	require './view/vista.php'
 	?>
