@@ -172,40 +172,25 @@
 	</div>
 
 
-	<!-- SECTION -->
-	<div class="section">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-
-			<!-- Billing Details -->
-			<div class="col-md-7">
-				<div class="header-search">
-
-					<form action="index.php" id="frmbuscar" name="frmbuscar" method="POST">
-						<input class="input" type="text" id="txtbuscar" name="txtbuscar" placeholder="Buscar productos por nombre">
-						<input class="blue-btn" type="submit" id="btnbuscar" name="btnbuscar" value="Buscar">
-					</form>
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- SECTION -->
-
 	<div class="container" style="display: flex; align-items: center; justify-content: center;">
 		<div>
 
 		</div>
 		<table class="table table-striped" id="myTable">
+			<thead>
 			<tr>
 				<td>Num</td>
 				<td>Nombre</td>
 				<td>Cantidad</td>
 				<td>Proveedor</td>
 				<td>Categoria</td>
-				<td colspan="2" align="center">Accion</td>
+				<td>Accion</td>
+				<td>Accion</td>
+			</tr>
+			</thead>
+			<tbody>
 				<?php echo $datos; ?>
+			</tbody>
 		</table>
 	</div>
 
