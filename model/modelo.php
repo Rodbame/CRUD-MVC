@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 
 require 'bd/conexion_bd.php';
 

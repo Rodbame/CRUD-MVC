@@ -5,6 +5,11 @@
 - [@Rodbame](https://github.com/Rodbame)
 
 ## ¿Que hace el proyecto?
+
+
+
+
+
 Este proyecto es un sencillo CRUD, es decir realiza las 4 funciones para la manipulación de los datos las cuales son insertar, leer, actualizar y eliminar o en ingles Create, Read, Update, Delete, el cual utiliza el patrón de la arquitectura MVC para de esta forma tener nuestro código dividido de una mejor forma. El fin de este mismo es el demostrar la utilización del patrón MVC.
 
 ## Requisitos para poder hacer uso del proyecto de forma local
@@ -81,7 +86,7 @@ Para la creación de nuestro producto solo debemos llenar nuestros campos y sele
 
 ### Búsqueda de un producto
 Para la búsqueda de cualquiera de nuestros productos debemos escribir en la barra de búsqueda cualquier cosa que queramos encontrar y este nos mostrara solo esos registros que coincidan.
-<img src="./imagenes/buscar.Spng"/>
+<img src="./imagenes/buscar.png"/>
 
 ### Modificación de un producto
 Al momento de querer cambiar algún producto nos dirigiremos al listado de los productos, una vez que veamos el producto que queramos modificar, daremos click a el botón de modificar que es amarillo.
