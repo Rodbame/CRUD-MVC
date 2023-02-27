@@ -12,7 +12,10 @@ Para poder utilizar este proyecto en cualquier computadora necesitaremos ciertos
 
 - Tener instalado un servidor local (XAMPP fue el utilizado en la creación del proyecto por lo que se recomienda utilizarlo).
 
+- Descargar el repositorio de github en .zip para instalarlo de forma local.
+
 - Descargar la base de datos que esta incluida en el repositorio de github en la carpeta de "BD_MySQL".
+
 
 ### Instalación del proyecto de forma local
 
@@ -78,7 +81,7 @@ Para la creación de nuestro producto solo debemos llenar nuestros campos y sele
 
 ### Búsqueda de un producto
 Para la búsqueda de cualquiera de nuestros productos debemos escribir en la barra de búsqueda cualquier cosa que queramos encontrar y este nos mostrara solo esos registros que coincidan.
-<img src="./imagenes/buscar.png"/>
+<img src="./imagenes/buscar.Spng"/>
 
 ### Modificación de un producto
 Al momento de querer cambiar algún producto nos dirigiremos al listado de los productos, una vez que veamos el producto que queramos modificar, daremos click a el botón de modificar que es amarillo.
