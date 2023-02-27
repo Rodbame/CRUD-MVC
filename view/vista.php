@@ -1,10 +1,3 @@
-<?php
-
-error_reporting(0);
-session_start();
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +13,7 @@ session_start();
 	<link rel="stylesheet" href="https://kit.fontawesome.com/4474c542fd.css" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css"/>
 
 	<script>
 		function eliminar(id) {
@@ -204,7 +197,7 @@ session_start();
 		<div>
 
 		</div>
-		<table class="table table-striped">
+		<table class="table table-striped" id="myTable">
 			<tr>
 				<td>Num</td>
 				<td>Nombre</td>
@@ -216,7 +209,18 @@ session_start();
 		</table>
 	</div>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('#myTable').DataTable({
+			language: {
+				url: 'https://cdn.datatables.net/plug-ins/1.13.2/i18n/es-MX.json'
+			}
+		});
+	});
+</script>
 
 </body>
 
